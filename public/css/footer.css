@@ -1,0 +1,18 @@
+/* Estilos do Rodapé */
+
+footer {
+    text-align: center;
+    border-top: 1px solid #f0f5ff;
+    padding: 20px;
+    width: 75%; /*  */
+    margin: auto; /* aplica  de forma automática centralizado no bloco */
+    text-transform: lowercase;
+}
+
+footer section span:first-child { /* seleciona o primeiro seletor */
+    color: #5e49ff;
+}
+
+footer section span:last-child {  /* seleciona o ultimo seletor */
+    color: #3bd42d;
+}
